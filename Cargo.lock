@@ -123,12 +123,6 @@ dependencies = [
 
 [[package]]
 name = "ansi_term"
-version = "0.9.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "23ac7c30002a5accbf7e8987d0632fa6de155b7c3d39d0067317a391e00a2ef6"
-
-[[package]]
-name = "ansi_term"
 version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ee49baf6cb617b853aa8d93bf420db2383fab46d314482ca2803b40d5fde979b"
@@ -306,7 +300,7 @@ dependencies = [
  "serde",
  "serde_json",
  "storage-interface",
- "structopt 0.3.21",
+ "structopt",
  "tokio",
  "tokio-stream",
  "tokio-util",
@@ -840,7 +834,7 @@ dependencies = [
  "rust_decimal",
  "rustyline",
  "serde",
- "structopt 0.3.21",
+ "structopt",
  "tokio",
  "transaction-builder",
  "walkdir",
@@ -907,7 +901,7 @@ dependencies = [
  "serde_json",
  "serde_yaml",
  "state-sync",
- "structopt 0.3.21",
+ "structopt",
  "termion",
  "tokio",
  "toml",
@@ -992,7 +986,7 @@ dependencies = [
  "ir-to-bytecode",
  "move-ir-types",
  "serde_json",
- "structopt 0.3.21",
+ "structopt",
  "vm",
 ]
 
@@ -1325,7 +1319,7 @@ version = "0.1.0"
 dependencies = [
  "diem-workspace-hack",
  "regex",
- "structopt 0.3.21",
+ "structopt",
  "termcolor",
  "walkdir",
 ]
@@ -1345,7 +1339,7 @@ dependencies = [
  "diemdb",
  "executor",
  "storage-interface",
- "structopt 0.3.21",
+ "structopt",
 ]
 
 [[package]]
@@ -1505,7 +1499,7 @@ dependencies = [
  "serde-generate",
  "serde-reflection",
  "serde_yaml",
- "structopt 0.3.21",
+ "structopt",
  "tempfile",
 ]
 
@@ -1521,7 +1515,7 @@ dependencies = [
  "futures",
  "hex",
  "reqwest",
- "structopt 0.3.21",
+ "structopt",
  "tokio",
 ]
 
@@ -1547,7 +1541,7 @@ dependencies = [
  "serde",
  "serde_derive",
  "serde_json",
- "structopt 0.3.21",
+ "structopt",
  "tempfile",
  "tokio",
  "warp",
@@ -1626,7 +1620,7 @@ dependencies = [
  "state-sync",
  "stats_alloc",
  "storage-interface",
- "structopt 0.3.21",
+ "structopt",
  "ureq",
  "vm",
 ]
@@ -1654,7 +1648,7 @@ dependencies = [
  "rand 0.8.3",
  "serde",
  "storage-interface",
- "structopt 0.3.21",
+ "structopt",
  "thiserror",
  "toml",
  "transaction-builder",
@@ -1875,7 +1869,7 @@ dependencies = [
  "hex",
  "serde",
  "serde_yaml",
- "structopt 0.3.21",
+ "structopt",
  "thiserror",
  "toml",
  "transaction-builder",
@@ -2005,7 +1999,7 @@ dependencies = [
  "storage-client",
  "storage-interface",
  "storage-service",
- "structopt 0.3.21",
+ "structopt",
  "subscription-service",
  "tokio",
  "tokio-stream",
@@ -2031,7 +2025,7 @@ dependencies = [
  "hex",
  "serde",
  "serde_json",
- "structopt 0.3.21",
+ "structopt",
  "thiserror",
  "toml",
  "transaction-builder",
@@ -2160,7 +2154,7 @@ dependencies = [
  "diem-workspace-hack",
  "diemdb",
  "storage-interface",
- "structopt 0.3.21",
+ "structopt",
  "tempfile",
 ]
 
@@ -2178,7 +2172,7 @@ dependencies = [
  "diem-types",
  "diem-workspace-hack",
  "reqwest",
- "structopt 0.3.21",
+ "structopt",
  "thiserror",
 ]
 
@@ -2218,7 +2212,7 @@ dependencies = [
  "reqwest",
  "serde",
  "serde_json",
- "structopt 0.3.21",
+ "structopt",
  "tokio",
 ]
 
@@ -2258,7 +2252,7 @@ dependencies = [
  "move-vm-test-utils",
  "move-vm-types",
  "resource-viewer",
- "structopt 0.3.21",
+ "structopt",
  "vm",
  "vm-genesis",
 ]
@@ -2454,7 +2448,7 @@ dependencies = [
  "once_cell",
  "serde",
  "serde_json",
- "structopt 0.3.21",
+ "structopt",
  "tempfile",
  "vm",
 ]
@@ -2507,7 +2501,7 @@ dependencies = [
  "itertools 0.10.0",
  "rand 0.8.3",
  "storage-interface",
- "structopt 0.3.21",
+ "structopt",
 ]
 
 [[package]]
@@ -2522,7 +2516,7 @@ dependencies = [
  "serde",
  "serde_json",
  "storage-interface",
- "structopt 0.3.21",
+ "structopt",
 ]
 
 [[package]]
@@ -2612,7 +2606,7 @@ dependencies = [
  "move-core-types",
  "move-coverage",
  "move-ir-types",
- "structopt 0.3.21",
+ "structopt",
  "vm",
 ]
 
@@ -2855,7 +2849,7 @@ dependencies = [
  "storage-client",
  "storage-interface",
  "storage-service",
- "structopt 0.3.21",
+ "structopt",
  "transaction-builder",
 ]
 
@@ -3155,7 +3149,7 @@ dependencies = [
  "serde",
  "serde-reflection",
  "serde_yaml",
- "structopt 0.3.21",
+ "structopt",
 ]
 
 [[package]]
@@ -3197,7 +3191,7 @@ dependencies = [
  "diem-types",
  "diem-workspace-hack",
  "resource-viewer",
- "structopt 0.3.21",
+ "structopt",
  "vm",
  "vm-genesis",
 ]
@@ -4025,7 +4019,7 @@ dependencies = [
  "channel",
  "diem-workspace-hack",
  "futures",
- "structopt 0.3.21",
+ "structopt",
 ]
 
 [[package]]
@@ -4158,7 +4152,7 @@ dependencies = [
  "disassembler",
  "move-ir-types",
  "regex",
- "structopt 0.3.21",
+ "structopt",
  "termion",
  "tui",
  "vm",
@@ -4189,7 +4183,7 @@ dependencies = [
  "move-vm-types",
  "once_cell",
  "resource-viewer",
- "structopt 0.3.21",
+ "structopt",
  "vm",
  "vm-genesis",
  "walkdir",
@@ -4233,7 +4227,7 @@ dependencies = [
  "once_cell",
  "petgraph",
  "serde",
- "structopt 0.3.21",
+ "structopt",
  "vm",
 ]
 
@@ -4246,7 +4240,7 @@ dependencies = [
  "diem-workspace-hack",
  "errmapgen",
  "move-core-types",
- "structopt 0.3.21",
+ "structopt",
 ]
 
 [[package]]
@@ -4286,7 +4280,7 @@ dependencies = [
  "move-lang-test-utils",
  "petgraph",
  "regex",
- "structopt 0.3.21",
+ "structopt",
  "tempfile",
  "vm",
  "walkdir",
@@ -4313,7 +4307,7 @@ dependencies = [
  "move-lang",
  "move-lang-test-utils",
  "regex",
- "structopt 0.3.21",
+ "structopt",
 ]
 
 [[package]]
@@ -5163,13 +5157,13 @@ dependencies = [
 
 [[package]]
 name = "prettydiff"
-version = "0.4.0"
+version = "0.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3bc9e8bdfe446d34975ff774fbb4a2b944d17054f6b5845ec132d4fb9ff8f559"
+checksum = "0b6176190f1637d46034820b82fbe758727ccb40da9c9fc2255d695eb05ea29c"
 dependencies = [
- "ansi_term 0.9.0",
+ "ansi_term 0.12.1",
  "prettytable-rs",
- "structopt 0.2.18",
+ "structopt",
 ]
 
 [[package]]
@@ -6208,7 +6202,7 @@ dependencies = [
  "hex",
  "rand 0.8.3",
  "serde_yaml",
- "structopt 0.3.21",
+ "structopt",
  "thiserror",
 ]
 
@@ -6270,7 +6264,7 @@ dependencies = [
  "serde-reflection",
  "serde_bytes",
  "serde_yaml",
- "structopt 0.3.21",
+ "structopt",
  "textwrap 0.13.4",
 ]
 
@@ -6822,35 +6816,13 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 
 [[package]]
 name = "structopt"
-version = "0.2.18"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "16c2cdbf9cc375f15d1b4141bc48aeef444806655cd0e904207edc8d68d86ed7"
-dependencies = [
- "clap",
- "structopt-derive 0.2.18",
-]
-
-[[package]]
-name = "structopt"
 version = "0.3.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5277acd7ee46e63e5168a80734c9f6ee81b1367a7d8772a2d765df2a3705d28c"
 dependencies = [
  "clap",
  "lazy_static",
- "structopt-derive 0.4.14",
-]
-
-[[package]]
-name = "structopt-derive"
-version = "0.2.18"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "53010261a84b37689f9ed7d395165029f9cc7abb9f56bbfe86bee2597ed25107"
-dependencies = [
- "heck",
- "proc-macro2 0.4.30",
- "quote 0.6.13",
- "syn 0.15.44",
+ "structopt-derive",
 ]
 
 [[package]]
@@ -6901,7 +6873,7 @@ dependencies = [
  "rand 0.8.3",
  "serde",
  "serde_json",
- "structopt 0.3.21",
+ "structopt",
  "transaction-builder",
 ]
 
@@ -7054,7 +7026,7 @@ dependencies = [
  "move-vm-types",
  "num_cpus",
  "rand 0.8.3",
- "structopt 0.3.21",
+ "structopt",
  "vm",
 ]
 
@@ -7417,7 +7389,7 @@ dependencies = [
  "serde-generate",
  "serde-reflection",
  "serde_yaml",
- "structopt 0.3.21",
+ "structopt",
  "tempfile",
  "textwrap 0.13.4",
  "which 4.0.2",
@@ -7970,7 +7942,7 @@ dependencies = [
  "regex",
  "serde",
  "serde_json",
- "structopt 0.3.21",
+ "structopt",
  "toml",
  "x-core",
  "x-lint",
