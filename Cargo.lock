@@ -816,7 +816,7 @@ dependencies = [
  "executor",
  "executor-test-helpers",
  "executor-types",
- "fail",
+ "fail 0.5.0",
  "fallible",
  "futures",
  "itertools 0.10.1",
@@ -1332,7 +1332,7 @@ dependencies = [
  "diemdb",
  "executor",
  "executor-types",
- "fail",
+ "fail 0.5.0",
  "futures",
  "hex",
  "hyper",
@@ -1844,7 +1844,7 @@ dependencies = [
  "diemdb",
  "executor",
  "executor-types",
- "fail",
+ "fail 0.5.0",
  "futures",
  "generate-key",
  "hex",
@@ -2009,7 +2009,7 @@ dependencies = [
  "diem-workspace-hack",
  "enum_dispatch",
  "event-notifications",
- "fail",
+ "fail 0.5.0",
  "futures",
  "itertools 0.10.1",
  "mempool-notifications",
@@ -2106,7 +2106,7 @@ dependencies = [
  "event-notifications",
  "executor",
  "executor-types",
- "fail",
+ "fail 0.5.0",
  "futures",
  "hex",
  "jemallocator",
@@ -2524,7 +2524,7 @@ dependencies = [
  "diem-state-view",
  "diem-types",
  "diem-workspace-hack",
- "fail",
+ "fail 0.5.0",
  "mirai-annotations",
  "move-binary-format",
  "move-bytecode-utils",
@@ -2988,7 +2988,7 @@ dependencies = [
  "diemdb",
  "executor-test-helpers",
  "executor-types",
- "fail",
+ "fail 0.5.0",
  "itertools 0.10.1",
  "move-core-types",
  "move-ir-compiler",
@@ -3087,6 +3087,17 @@ dependencies = [
  "lazy_static 1.4.0",
  "log",
  "rand 0.7.3",
+]
+
+[[package]]
+name = "fail"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ec3245a0ca564e7f3c797d20d833a6870f57a728ac967d5225b3ffdef4465011"
+dependencies = [
+ "lazy_static 1.4.0",
+ "log",
+ "rand 0.8.4",
 ]
 
 [[package]]
@@ -5109,7 +5120,7 @@ name = "move-vm-runtime"
 version = "0.1.0"
 source = "git+https://github.com/diem/move?rev=98ed299a7e3a9223019c9bdf4dd92fea9faef860#98ed299a7e3a9223019c9bdf4dd92fea9faef860"
 dependencies = [
- "fail",
+ "fail 0.4.0",
  "mirai-annotations",
  "move-binary-format",
  "move-bytecode-verifier",
@@ -7463,7 +7474,7 @@ dependencies = [
  "executor",
  "executor-test-helpers",
  "executor-types",
- "fail",
+ "fail 0.5.0",
  "futures",
  "itertools 0.10.1",
  "mempool-notifications",
@@ -8636,7 +8647,7 @@ dependencies = [
  "diemdb",
  "executor",
  "executor-test-helpers",
- "fail",
+ "fail 0.5.0",
  "move-core-types",
  "rand 0.8.4",
  "scratchpad",
