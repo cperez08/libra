@@ -1,9 +1,9 @@
 name: weekly
 
-on:
-  schedule:
-    # this script will run each Friday at 10:10 UTC
-    - cron: "10 10 * * 5"
+# on:
+#   schedule:
+#     # this script will run each Friday at 10:10 UTC
+#    # - cron: "10 10 * * 5"
 
 jobs:
   dep-report:
