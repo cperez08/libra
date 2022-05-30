@@ -31,7 +31,7 @@ futures-io = { version = "0.3.16", features = ["std"] }
 futures-sink = { version = "0.3.16", features = ["alloc", "std"] }
 futures-util = { version = "0.3.16", features = ["alloc", "async-await", "async-await-macro", "channel", "futures-channel", "futures-io", "futures-macro", "futures-sink", "io", "memchr", "proc-macro-hack", "proc-macro-nested", "sink", "slab", "std"] }
 hyper = { version = "0.14.11", features = ["client", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
-indexmap = { version = "1.7.0", default-features = false, features = ["std"] }
+indexmap = { version = "1.8.2", default-features = false, features = ["std"] }
 itertools = { version = "0.10.1", features = ["use_alloc", "use_std"] }
 libc = { version = "0.2.112", features = ["std"] }
 log = { version = "0.4.14", default-features = false, features = ["serde", "std"] }
@@ -79,7 +79,7 @@ futures-io = { version = "0.3.16", features = ["std"] }
 futures-sink = { version = "0.3.16", features = ["alloc", "std"] }
 futures-util = { version = "0.3.16", features = ["alloc", "async-await", "async-await-macro", "channel", "futures-channel", "futures-io", "futures-macro", "futures-sink", "io", "memchr", "proc-macro-hack", "proc-macro-nested", "sink", "slab", "std"] }
 hyper = { version = "0.14.11", features = ["client", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
-indexmap = { version = "1.7.0", default-features = false, features = ["std"] }
+indexmap = { version = "1.8.2", default-features = false, features = ["std"] }
 itertools = { version = "0.10.1", features = ["use_alloc", "use_std"] }
 libc = { version = "0.2.112", features = ["std"] }
 log = { version = "0.4.14", default-features = false, features = ["serde", "std"] }
